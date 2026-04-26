@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 # 💡 URL DE CONEXIÓN
-DATABASE_URL = "mysql+pymysql://root:Abimaely8.@localhost:3306/flet_peliculas_db"
+DATABASE_URL = "mysql+pymysql://root:TU_CONTRASEÑA_AQUI.@localhost:3306/flet_peliculas_db"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
